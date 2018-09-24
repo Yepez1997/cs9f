@@ -8,7 +8,6 @@
 
 using namespace std; 
 
-// global vars 
 int input; 
 int input2; 
 int total = 0;
@@ -25,6 +24,7 @@ void print_subtotal(int &subtotal) {
     std::cout << "Subtotal " << subtotal << endl; 
 }
 
+/*handles all cases for main program*/
 int main() { 
     while (true) {      
         std::cout << "Enter input: " << endl;
