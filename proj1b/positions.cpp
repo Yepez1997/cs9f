@@ -4,11 +4,16 @@
 #include <cmath>
 #include "positions.h"
 
-int main() {
+// Imlementation of Positions class
 
-
-    return 0; 
+Position::Position(float radius, float radians) {
+    myRadius = radius;
+    myAngleInRadians = radians;
 }
 
 
+bool Position::Sees(Position pos) const{ 
+    
+    return true; 
+}
 
