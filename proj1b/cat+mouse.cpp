@@ -56,8 +56,13 @@ void GetPositions(Position &cat, Position &mouse){
  * give up.
  */
 void RunChase(Position cat, Position mouse)
-{
-    // TODO: You fill this in
+{   
+
+    // cat is caught 
+    while(cat.myRadius * cos(cat.myAngleInRadians - mouse.myAngleInRadians) < 1) {
+
+    }
+    // once we exit same as cat sees mouse 
 }
 
 int main()

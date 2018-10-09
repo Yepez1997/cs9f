@@ -46,7 +46,7 @@ public:
       // is less than pi radians, and the radii of all the positions 
       // are the same.
 
-private:
+public:
     float myRadius;
 
     float myAngleInRadians;
