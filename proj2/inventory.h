@@ -15,4 +15,6 @@ public:
 
 private:
 	// TODO: You provide this.
+	string item; 
+
 };

@@ -33,11 +33,12 @@ void InterpretCommands(istream& cmds)
     string line, lineInWord;
     // TODO: Declare other variables here.
 
-    while ( ________ )  // TODO: Get a line.
+    while ( true )  // TODO: Get a line.
     {
         istringstream lineIn(line);
 
-        if ( ________ ) // TODO: Get the line's first word.
+        // if not a word
+        if(getline(cin,line)) // TODO: Get the line's first word.
         {
             ________ ;  // TODO: Do something if there weren't any words.
         }
